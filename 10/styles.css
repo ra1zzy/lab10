@@ -1,0 +1,95 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f0f8f4; /* Light green background */
+    color: #2d3e3f; /* Dark green text */
+}
+
+.container {
+    max-width: 600px;
+    margin: auto;
+    padding: 20px;
+    text-align: center;
+    background-color: #e6f4e1; /* Light green container background */
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+h1 {
+    color: #3c6e47; /* Dark green header */
+}
+
+#product-form {
+    margin-bottom: 20px;
+}
+
+#product-input {
+    width: calc(100% - 110px);
+    padding: 10px;
+    border: 2px solid #3c6e47; /* Dark green border */
+    border-radius: 5px;
+}
+
+#submit-btn {
+    padding: 10px 20px;
+    background-color: #3c6e47; /* Dark green button */
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+#submit-btn:hover {
+    background-color: #2d4e32; /* Darker green on hover */
+}
+
+#product-list article {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background: #d6eadf; /* Lighter green background for items */
+    margin: 5px 0;
+    padding: 10px;
+    border-radius: 5px;
+    border: 1px solid #3c6e47; /* Dark green border */
+}
+
+.btn-container button {
+    margin: 0 5px;
+    background-color: #3c6e47; /* Dark green buttons */
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    padding: 5px 10px;
+}
+
+.btn-container button:hover {
+    background-color: #2d4e32; /* Darker green on hover */
+}
+
+.modal {
+    position: fixed;
+    top: 20px;
+    left: 50%;
+    transform: translateX(-50%);
+    padding: 10px 20px;
+    background: #3c6e47; /* Dark green modal */
+    color: white;
+    display: none;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+#clear-btn {
+    padding: 10px 20px;
+    background-color: #3c6e47; /* Dark green button */
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-top: 20px;
+}
+
+#clear-btn:hover {
+    background-color: #2d4e32; /* Darker green on hover */
+}
